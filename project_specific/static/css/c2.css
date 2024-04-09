@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Increase letter spacing */
+    margin-bottom: 20px; /* Add space below the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+    line-height: 1.2; /* Increase line height for better readability */
+    /* Add a background gradient */
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* Add rounded corners */
+    border-radius: 8px;
+    /* Add padding */
+    padding: 20px;
+    /* Add box-shadow for depth */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
