@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 import os
 TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')
-STATIC_DIR_SPECIFIC_STATIC_FILES = os.path.join(os.path.join(BASE_DIR,'SPECIFIC_STATIC_FILES'),'static')
+STATIC_DIR_PROJECT_SPECIFIC = os.path.join(os.path.join(BASE_DIR,'PROJECT_SPECIFIC'),'static')
 STATIC_DIR_FOOD = os.path.join(os.path.join(BASE_DIR,'food'),'static')
 STATIC_DIR_CLOTHING = os.path.join(os.path.join(BASE_DIR,'clothing'),'static')
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
@@ -129,6 +129,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS =[STATIC_DIR_SPECIFIC_STATIC_FILES,STATIC_DIR_FOOD,STATIC_DIR_CLOTHING]
+STATICFILES_DIRS =[STATIC_DIR_PROJECT_SPETIFIC,STATIC_DIR_FOOD,STATIC_DIR_CLOTHING]
 
 
